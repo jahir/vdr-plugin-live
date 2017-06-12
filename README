@@ -12,6 +12,12 @@ Latest version available at: http://live.vdr-developer.org
 
 See the file COPYING for license information.
 
+Modifications:
+==============
+
+- GCC 6 compile fix (from Fedora)
+- Folderstate Cookie (from debian)
+- Show OSD without output plugin (from http://www.vdr-portal.de/board16-video-disk-recorder/board55-vdr-plugins/119161-live-patch-f%C3%BCr-osd-ohne-ausgabeplugin/)
 
 IMPORTANT:
 ==========
@@ -182,7 +188,7 @@ qualified dns name, you should use the ip LIVE is listening on.
 
 Note: This is just a quick'n dirty way to create a SSL self-signed
 certicate.  Recent browsers (like Firefox 3) will complain about it
-because the certificate wasn´t signed by a known Certificate Authority
+because the certificate wasnÂ´t signed by a known Certificate Authority
 (CA).
 
 
